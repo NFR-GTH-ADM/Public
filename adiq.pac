@@ -44,7 +44,7 @@ function FindProxyForURL(url, host) {
         url.substring(0, 5) === 'http:' ||
         url.substring(0, 6) === 'https:'
     ) {
-        return 'PROXY adiq.goskope.com:8081';
+        return 'PROXY eproxy-adiq.goskope.com:8081';
     }
     return 'DIRECT';
 }
